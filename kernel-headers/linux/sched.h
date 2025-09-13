@@ -104,6 +104,10 @@ struct clone_args {
 };
 #endif
 
+struct sched_param {
+   int sched_priority;
+};
+
 #define CLONE_ARGS_SIZE_VER0 64 /* sizeof first published struct */
 #define CLONE_ARGS_SIZE_VER1 80 /* sizeof second published struct */
 #define CLONE_ARGS_SIZE_VER2 88 /* sizeof third published struct */
